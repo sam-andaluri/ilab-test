@@ -1,0 +1,28 @@
+version: 2
+task_description: 'Teach the model about facts on Startup failures'
+created_by: watson_wizards
+domain: tech_industry/startups
+seed_examples:
+  - question: Who was the parent company of dotCloud at the time it was closed?
+    answer: |
+      The mother company, CloudControl, filed for bankruptcy and dotCloud, a very small part of the German organization, could not sustain operation costs by itself thus decided to stop its operations.
+  - question: What is the funding amount of startup Dinnr?
+    answer: |
+      Dinnr was founded with 60000 GBP as per Crunchbase site.
+  - question: What are the names of founders for Pixate?
+    answer: |
+      Kevin Lindsey, Paul Colton are the founders for Pixate.
+  - question: How many employees were in Indian startup Dazo?
+    answer: |
+      The number of employees are between 10-50 at one point in time.
+  - question: What is the APR offered by Circle Back Lending when it was in operation?
+    answer: |
+      The APR (Annual Percentage Rate) offered on loans ranged from 6.63% to 35.82%.
+  - question: What are the names of founders for Design Inc startup?
+    answer: |
+      As per Crunchbase, the founders are Bjoern Zinssmeister, Marc Hemeon.
+document:
+  repo: https://github.ibm.com/Americas-Cloud-TechSales/watson_wizards.git
+  commit: 168896a
+  patterns:
+    - startup-failures.md
