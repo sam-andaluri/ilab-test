@@ -6,7 +6,7 @@
 ```ilab model download```
 
 ### Clone repo
-```git clone https://github.com/sam-andaluri/ilab-test.git```
+```git clone https://github.com/sam-andaluri/instructLAB_knowledge_demo.git```
 
 ### Install InstructLAB
 ```python3 -m venv --upgrade-deps venv\nsource venv/bin/activate\npip cache remove llama_cpp_python\npip install instructlab```
